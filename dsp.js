@@ -95,7 +95,6 @@ DSP.invert = function(buffer) {
 
   // Set up a mapping for inverting the buffer. May present compatibility issues, but processes much faster.
   var invBuffer = buffer.map(function(x) { return x*-1; } );
-
   return invBuffer;
 };
 
